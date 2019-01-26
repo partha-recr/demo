@@ -1,0 +1,7 @@
+---
+applications:
+- name: demo-service
+  memory: 1G  
+  path: target/demo.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  
